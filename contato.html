@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="imagens/favicon.ico.png">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Contato</title>
+
+</head>
+
+<body>
+    
+    <header>
+        <img src="imagens/capa.png" alt="Imagem da Capa">
+    </header>        
+
+    <nav>
+        <strong>
+            <a href="index.html">HOME | </a>
+            <a href="Biografia.html">BIOGRAFIA |</a>
+            <a href="Campanhas.html">CAMPANHAS PUBLICITÁRIAS |</a>
+            <a href="Contato.html">CONTATO</a>
+        </strong>
+    </nav>
+
+   <section>
+    
+    <style>
+/* Estilização do formulário */
+form {
+    width: 500px;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+  }
+  /* Estilização dos inputs */
+  input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid gray;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  /* Estilização do botão de envio */
+  input[type="submit"] {
+    width: 100%;
+    padding: 12px 20px;
+    background-color: #4b566a;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+
+  /* Efeito hover no botão de envio */
+  input[type="submit"]:hover {
+    background-color: rgb(61, 61, 73);
+  }
+    </style>    
+
+<!-- Formulário de contato -->
+<form action="#" method="post">
+    <!-- Input para o nome -->
+    <label for="nome">Nome:</label>
+    <input type="text" id="nome" name="nome" required>
+    <!-- Input para o email -->
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+    <!-- Input para a mensagem -->
+    <label for="mensagem">Mensagem:</label>
+    <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+    <!-- Botão de envio -->
+    <input type="submit" value="Enviar">
+  </form>
+   
+    </section> 
+       
+    <footer>
+        <h4>Todos os direitos Reservados</h4>
+     </footer>      
+
+</body>
+</html>
